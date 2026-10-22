@@ -1,0 +1,112 @@
+# ============================================
+# 🌳 Project Tree Generator - .gitignore
+# ============================================
+# File ini menentukan file/folder apa saja yang 
+# TIDAK akan di-track oleh Git (tidak ikut di-push ke GitHub)
+
+# ============================================
+# 1. Dependencies Node.js
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# 2. Output File dari CLI (Hasil Generate)
+# ============================================
+# File tree.txt yang ter-generate otomatis saat menjalankan `tree-gen .`
+tree.txt
+
+# File output kustom (opsional, jika user sering generate dengan nama ini)
+struktur-folder.md
+struktur-folder.txt
+project-tree.md
+project-tree.txt
+
+# ============================================
+# 3. Environment Variables (Secret & Config Lokal)
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# 4. Log Files
+# ============================================
+*.log
+logs/
+npm-debug.log
+yarn-error.log
+lerna-debug.log*
+
+# ============================================
+# 5. Editor & IDE Configuration (Setting Pribadi)
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ============================================
+# 6. OS Generated Files (File Sampah Sistem)
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ============================================
+# 7. Build & Output Directories (Opsional)
+# ============================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# ============================================
+# 8. Testing & Coverage
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================================
+# 9. Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# ============================================
+# 10. Misc (Lain-lain)
+# ============================================
+*.tgz
+.npm
+.eslintcache
