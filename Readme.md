@@ -309,8 +309,8 @@ Project ini dilisensikan di bawah [MIT License](LICENSE). Silakan gunakan, modif
 
 Dibuat dengan ❤️ oleh **[Nama Anda / Username GitHub Anda]**
 
-- GitHub: [@username-anda](https://github.com/username-anda)
-- Email: email-anda@example.com
+- GitHub: yozuk012(https://github.com/yozuk012)
+- Email: yozukakit@gmail.com
 
 ---
 
